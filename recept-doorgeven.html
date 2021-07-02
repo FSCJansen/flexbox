@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> Contact - Jop de Bouwer</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul class="navigatie">
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="blog.html">Blog</a>
+                </li>
+                <li>
+                    <a href="about.html">Over ons</a>
+                </li>
+                <li>
+                    <a href="contact.html">Contact</a>
+                </li>
+                <li>
+                    <a href="recept-doorgeven.html">Recept versturen</a>
+                </li>
+                <li>
+                    <a href="#">link 5</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <form id="recept" name="recept" method="POST" data-netlify="true">
+            <label><strong>Naam:</strong><br>
+                <input name="naam" type="text" /></label><br>
+            <label><strong>Email:</strong><br>
+                <input name="e-mail" type="email" /></label><br>
+            <label><strong>Telefoonnummer:</strong><br>
+                <input name="telefoonnummer" type="tel" /></label><br>
+            <label><strong>Leeftijd:</strong><br>
+                <input name="leeftijd" type="number" /></label><br>
+            <label><strong>Geboortedatum:</strong><br>
+                <input name="geboortedatum" type="date" /></label><br>
+            <strong>Geslacht:</strong><br>
+            <label><input name="geslacht" type="radio" value="vrouw" />vrouw</label><br>
+            <label><input name="geslacht" type="radio" value="man" />man</label><br>
+            <strong>Favoriete keuken:</strong><br>
+            <label><input name="keuken" type="checkbox" value="Frans" />Frans</label><br>
+            <label><input name="keuken" type="checkbox" value="Italiaans" />Italiaans</label><br>
+            <label><input name="keuken" type="checkbox" value="Spaans" />Spaans</label><br>
+            <label><input name="keuken" type="checkbox" value="Arabisch" />Arabisch</label><br>
+            <label><strong>Kleur schort:</strong><br>
+                <input name="schort" type="color" /></label><br>
+            <label><strong>Biografie:</strong><br>
+                <textarea name="biografie" rows="10" cols="30"></textarea></label><br>
+            <label><strong>Upload je laatste recept:</strong><br>
+                <input name="recept" type="file" /></label><br>
+            <label><strong>Jouw recepten website:</strong><br>
+                <input name="receptenwebsite" type="url" /></label><br>
+            <input name="Reset" type="reset" />
+            <input name="Verzenden" type="submit" />
+
+        </form>
+    </main>
+
+</body>
+
+</html>
